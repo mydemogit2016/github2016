@@ -16,9 +16,14 @@ namespace WindowsFormsApplication3
         {
             InitializeComponent();
             DemoFun();
+            DemoFun2();
         }
 
         public int DemoFun()
+        {
+            return 1;
+        }
+        public int DemoFun2()
         {
             return 1;
         }
